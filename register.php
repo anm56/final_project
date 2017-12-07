@@ -12,7 +12,6 @@ Gender : <input type="radio" name="gender" value="Male">Male
          <input type="radio" name="gender" value="Female">Female<br><br>
 Username : <input type="text" name="Username" placeholder="Username" required><br><br>
 Password : <input type="password" name="psw" placeholder="Password" pattern=".{6,}" required><br><br>
-Confirm Password : <input type="password" name="psw" placeholder="Confirm password" pattern= ",{6,}" required><br><br>
 <input type="submit" value="Submit">
 </form>
 </body>
