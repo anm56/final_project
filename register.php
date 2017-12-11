@@ -2,7 +2,7 @@
 <head>
 <p><b><h1> To-Do Application</h1></b></p>
 <body>
-<form action="/action_page.php" method="post" enctype="multipart/form-data">
+<form action="database.php" method="post" enctype="multipart/form-data">
 First Name : <input type="text" name="fname" placeholder="First name" pattern=".{1,}"required ><br><br>
 Last Name : <input type="text" name="lname" placeholder="Last name" pattern=".{1,}" required><br><br>
 Email : <input type="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br><br>
