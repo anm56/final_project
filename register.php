@@ -10,7 +10,6 @@ Phone : <input type="tel" name="tel" placeholder="123-4567890" maxlength="10" re
 Birthday : <input type="date" name="bday" placeholder="mm/dd/yyyy" required><br><br>
 Gender : <input type="radio" name="gender" value="Male">Male
          <input type="radio" name="gender" value="Female">Female<br><br>
-Username : <input type="text" name="Username" placeholder="Username" required><br><br>
 Password : <input type="password" name="psw" placeholder="Password" pattern=".{6,}" required><br><br>
 <input type="submit" value="Submit">
 </form>
