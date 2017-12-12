@@ -17,11 +17,13 @@ try {
     $conn= new PDO("mysql:host=$servername;dbname=anm56", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "Database Connected successfully";
-    echo "<br>"; 
+    echo "<br>";
+    echo "<br>";
     $sql= $conn->prepare("INSERT INTO accounts (fname, lname, email, phone, birthday, gender, password) VALUES ('$fname', '$lname', '$email', 
                                                  '$phone','$bday', '$gender', '$pass1')"); 
    $sql->execute();
   // $results=$sql->fetchAll();
+  echo "Data saved successfully";
 
     }
 catch(PDOException $e)
