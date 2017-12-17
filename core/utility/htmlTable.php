@@ -2,7 +2,7 @@
 
 namespace utility;
 //namespace MyProject\mvcName;
-<br>
+
 class htmlTable
 {
     public static function genarateTableFromMultiArray($array)
